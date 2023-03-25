@@ -3,7 +3,7 @@
 
   outputs = inputs @ { self, nixpkgs, flake-parts, ... }:
     let
-      user = "ruixi";
+      user = "spo";
       domain = "rayxi.top";
       selfPkgs = import ./pkgs;
     in
