@@ -6,7 +6,7 @@
   nixpkgs.config.allowUnfree = true;
 
   networking = {
-    hostName = "RuiXi"; # Define your hostname.
+    hostName = "keter"; # Define your hostname.
     networkmanager.enable = true;
     hosts = {
       "185.199.109.133" = [ "raw.githubusercontent.com" ];
@@ -15,7 +15,7 @@
       "185.199.108.133" = [ "raw.githubusercontent.com" ];
     };
   };
-  time.timeZone = "Asia/Shanghai";
+  time.timeZone = "Pacific/Auckland";
 
   i18n.defaultLocale = "en_US.UTF-8";
 
